@@ -1,0 +1,10 @@
+#i0,
+.ytSuggestionComponentBold,
+.ytSuggestionComponentSuggestion.ytSuggestionComponentPersonalizedSuggestion.ytSuggestionComponentLargerSuggestion.ytSuggestionComponentThumbnailSuggestion.ytSuggestionComponentRoundedSuggestion,
+.ytSuggestionComponentSuggestion.ytSuggestionComponentPersonalizedSuggestion.ytSuggestionComponentLargerSuggestion.ytSuggestionComponentThumbnailSuggestion.ytSuggestionComponentRoundedSuggestion,
+.ytSearchboxComponentSuggestionsContainer.ytSearchboxComponentSuggestionsContainerScrollable {
+    display: none !important;
+    width: 0px !important;
+    min-width: 0px !important;
+    color: white;
+}

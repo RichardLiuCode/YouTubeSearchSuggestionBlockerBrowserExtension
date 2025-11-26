@@ -1,3 +1,20 @@
 {
-    "name": "Youtube Search Search Suggestion Blocker"
+    "name": "Youtube Search Search Suggestion Blocker",
+    "description": "This is a browser that can block searching Suggestion when you are searching YouTube video in YouTube's search bar",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.youtube.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ],
+            "run_at": "document_end"
+        }
+    ]
 }
